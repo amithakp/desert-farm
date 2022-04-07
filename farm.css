@@ -5,7 +5,8 @@
 html, body {
     height: 100%;
 }
-.container-fluid {
+body {
+    position: relative;
     background: url('./images/home_illustration_colour_upgrade\ copy\ 1.png');
     background-repeat:no-repeat;
     background-position: center;
@@ -15,6 +16,10 @@ html, body {
     width: 100%;
     padding-left: unset!important;
     padding-right: unset!important;
+}
+.container-fluid {
+    padding-right:unset !important;
+    padding-left: unset !important; 
 }
 /* .sky{
     display:flex;
@@ -61,14 +66,32 @@ img.logo{
 } */
 
 /* homeIconContainer start */
-.homeIconContainer .container{
+.homeIconContainer{
+    width: 80%;
     display: flex;
-    width: auto;
-    margin-top: 280px;
     justify-content: center;
 }
+.homeIconContainer .container{
+    /* display: flex;
+    width: auto;
+    margin-top: 280px;
+    justify-content: center; */
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+}
 .homeIconContainer .container .row {
-    justify-content: space-around;
+    justify-content: center;
+}
+.col {
+    flex: 0 0 0% !important;
+}
+.icons{
+    height:50px;
+    width: 50px;
 }
 .iconName{
     padding: 8px;
@@ -78,3 +101,10 @@ img.logo{
     color: white;
 }
 
+/* fade effect */
+.row div{
+    opacity: 0.6;
+}
+#fadeOut{
+    opacity: 1;
+}
