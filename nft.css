@@ -118,3 +118,55 @@ body{
 #fadeOut{
     opacity: 1;
 }
+
+@media(max-width:1000px){
+    .carousel {
+        margin-left: 27%;
+    }
+}
+@media(max-width:850px){
+    .carousel {
+        margin-left: 29%;
+    }
+}
+@media(max-width:770px){
+    .screenTextContainer{
+        margin-left: 43%;
+    }
+    .carousel {
+        margin-left: 28%;
+        margin-top: 18%;
+    }
+    .section-mat .mat-button {
+        margin-top: -14%;
+    }
+    .section-mat .mat-button {
+        margin-left: 38%;
+    }
+    .homeIconContainer .container {
+        margin-top: 18%;
+    }
+
+}
+@media(max-width:545px){
+    .screenTextContainer{
+        margin-left: 40%;
+    }
+    .section-mat .mat-button {
+        margin-left: 34%;
+    }
+    .homeIconContainer .container {
+        margin-top: 24%;
+    }
+}
+@media(max-width:515px){
+    .screenTextContainer{
+        margin-left: 40%;
+    }
+    /* .section-mat .mat-button {
+        margin-left: 32%;
+    }
+    .homeIconContainer .container {
+        margin-top: 24%;
+    } */
+}
