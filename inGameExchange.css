@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: auto !important;
+    text-decoration: none;
+}
+body{
+    background-image: url("images/Vector.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 100% 100%;
+    height: auto!important;
+    width: 100%;
+}
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 2%;
+}
+/* ingame exchanger */
+.screenTextContainer{
+    width: 20%;
+    /* height: 30px; */
+    font-weight: bold;
+    background: #caedee;
+    box-shadow: 0px 4px 18px rgb(0 0 0 / 65%);
+    border-radius: 22px;
+    margin-top: 5%;
+    margin-left: 43%;
+    text-align: center;
+}
+.text-name{
+    text-align: center;
+    width: 100%;
+}
+
+/* coming soon start */
+.carousel-first{
+    width: 50%;
+    margin-left: 30%;
+    display: block;
+    border-radius: 22px;
+    text-align: justify;
+    padding: 20px;
+    margin-top: 2%;
+    background-color: #d2c294;
+}
+.inGameExchange-text{
+    text-align: justify;
+    width: 100%;
+}
+.coming-soon{
+    text-transform: uppercase;
+    font-size:19px;
+    font-weight: bold;
+    text-align: center;
+}
+/* coming soon end */
+/* mat start */
+.section-mat{
+    margin-top: -18px;
+}
+.section-mat .container{
+    display:block;
+    width: 90%;
+    margin-bottom: 4%;
+}
+
+.mat-image{
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 100% 100%;
+    height: auto;
+    width: 100%; 
+}
+/* mat end */
+/* homeIconContainer start */
+.homeIconContainer{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+.row{
+    --bs-gutter-x: 1.5rem !important;
+}
+.icons{
+    height:50px;
+    width: 50px;
+}
+.iconName{
+    padding: 8px;
+    text-transform: uppercase;
+    font-size: 10px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    color: white;
+}
+/* homeIconContainer end */
+/* fade effect */
+.row div{
+    opacity: 0.6;
+}
+#fadeOut{
+    opacity: 1;
+}
