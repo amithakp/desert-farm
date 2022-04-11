@@ -10,10 +10,10 @@ body {
     background-image: url("images/Vector.png");
     background-size: cover;
     background-repeat:no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position: center;
     background-size: 100% 100%;
-    display: block;
+    /* display: block; */
     /* display: flex;
     justify-content: center; */
 }
@@ -103,10 +103,28 @@ body {
     display: flex;
     justify-content: center;
     padding: 2%;
+    width: 100%;
 }
-.row{
+.homeIconContainer .container{
+    /* display: flex;
+    width: auto;
+    margin-top: 280px;
+    justify-content: center; */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+}
+.homeIconContainer .container .row {
+    justify-content: center;
+}
+.col {
+    flex: 0 0 0% !important;
+}
+/* .row{
     --bs-gutter-x: 1.5rem !important;
-}
+} */
 .icons{
     height:50px;
     width: 50px;
@@ -164,14 +182,14 @@ body {
     .homeIconContainer .container{
         width: 99%!important;
     }
-    .row {
+    /* .row {
         --bs-gutter-x: -4.5rem !important;
     }
     .row>* {
         flex-shrink: 0!important;
         width: unset!important;
         
-    }
+    } */
     /* .row {
         --bs-gutter-x: unset !important;
     } */
