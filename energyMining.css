@@ -120,10 +120,13 @@ body {
 }
 /* homeIconContainer end */
 /* fade effect */
-
+.container .row div{
+    opacity: 0.6;
+}
 #fadeOut{
     opacity: 1;
 }
+
 @media (max-width: 990px) {
     .section-mat .mat-button{
         margin-left: 41%;
